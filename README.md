@@ -1,1 +1,0 @@
-# masai-sprint-3
