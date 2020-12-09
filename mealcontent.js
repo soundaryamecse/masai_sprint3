@@ -18,19 +18,38 @@ window.addEventListener('load',function()
         {
             //console.log(item.strMeal)
             var a=document.createElement('a')
+            a.style.textDecoration="none"
             a.href="recipe.html?idMeal="+item.idMeal
             var box_div=document.createElement('div')
             box_div.setAttribute('class','card m-3')
+            box_div.style.width="220px"  
+            box_div.style.overflow="hidden"
+            box_div.style.textOverflow="ellipsis"
+           
+            let div=document.createElement('div')
+            div.style.width="220px"  
+            div.style.overflow="hidden"
+            div.style.textOverflow="ellipsis"
+            div.style.height="23px"
 
-            var h_tag=document.createElement('h4')
+            var h_tag=document.createElement('h6')
             h_tag.textContent=item.strMeal
+            h_tag.style.color="black"
+            
+            div.append(h_tag)
+            
 
             var img=document.createElement('img')
             img.setAttribute('src',item.strMealThumb)
-            img.setAttribute('width',"250px")
-            img.setAttribute("height","250px")
+            img.setAttribute('width',"200px")
+            img.setAttribute("height","200px")
+            img.style.objectFit="contain"
             
-            box_div.append(h_tag,img)
+            box_div.style.padding="10px"
+            box_div.style.borderRadius="10px"
+            box_div.style.boxShadow="10px 10px 10px lightgrey"
+
+            box_div.append(div,img)
             a.append(box_div)
             res.append(a)
 
