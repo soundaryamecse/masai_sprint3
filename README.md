@@ -11,7 +11,7 @@ By using this application The person who are not known about the cooking also wi
     <img src="https://cdn.onlinewebfonts.com/svg/img_174096.png" height="40px" width="40px" style="object-fit:cover"/>
   </p>
   
-  <p align="center">Accessed <b>MealDB</b> for floating the Recipes in DOM.Thanks for MealDB Api for giving me the very good flow of AJAX</p>
+  <p align="center">Accessed <b>MealDB</b> for floating the Recipes in DOM.Thanks for MealDB API for giving me the very good flow of AJAX</p>
   
   <h1></h1>
   <p align="center">
